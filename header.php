@@ -59,7 +59,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="/"><img src="assets/img/logo.png" alt="Liz Verde, Junior Web Developer"></a>
+						<a class="navbar-brand" href="/"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/logo.png" alt="Liz Verde, Junior Web Developer"></a>
 					</div> <!-- navbar header -->
 
 					<?php
