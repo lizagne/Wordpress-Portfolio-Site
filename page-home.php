@@ -9,32 +9,35 @@ get_header(); ?>
 
 	   <!-- HERO
     ================================================== -->
-    <section id="hero" data-type="background" data-speed="5">
-    	<article>
-    		<div class="container clearfix">
-    			<div class="row">
-    			
-    				<div class="col-sm-5">
-		    			<img src="/wp-content/themes/underscoresTheme/assets/img/lizVerde.jpg" alt="Liz Verde, Junior Web Developer" class="logo">
-    				</div><!-- col -->
-		    		
-		    		<div class="col-sm-7 hero-text">
-			    		<h1>//Junior Web Developer</h1>
-			            <p class="lead">Since making the decision to study programming I have become addicted to learning the languages that make up digital experiences. I work very hard at improving my skills, through repeated practice and online courses.</p>
+    <a name="top"></a>
+	    <section id="hero" data-type="background" data-speed="5">
+	    	<article>
+	    		<div class="container clearfix">
+	    			<div class="row">
+	    			
+	    				<div class="col-sm-5">
+			    			<img src="/wp-content/themes/underscoresTheme/assets/img/lizVerde.jpg" alt="Liz Verde, Junior Web Developer" class="logo">
+	    				</div><!-- col -->
+			    		
+			    		<div class="col-sm-7 hero-text">
+				    		<h1>//Junior Web Developer</h1>
+				            <p class="lead">Since making the decision to study programming I have become addicted to learning the languages that make up digital experiences. I work very hard at improving my skills, through repeated practice and online courses.</p>
 
-			            <p><a class="btn btn-lg btn-danger" href="#projects" role="button">//See My Work &raquo;</a></p>
-		    		</div><!-- col -->
-		    		
-    			</div><!-- row -->
-    		</div><!-- container -->
-    	</article>
-    </section>
+				            <p><a class="btn btn-lg btn-danger" href="#projects" role="button">//See My Work &raquo;</a></p>
+			    		</div><!-- col -->
+			    		
+	    			</div><!-- row -->
+	    		</div><!-- container -->
+
+	    	</article>
+	    </section>
+	
 	
    <!-- PROJECTS
 	================================================== -->
-	<section id="projects">
+	<a name="projects"></a>
+	<section id="projects">	
 		<div class="container">
-			<a name="projects"></a>
 			<h2>//My Projects</h2>
 			<p class="lead">During our Coding Fellowship with DevelopMe_, we worked on various different projects with lots of different technologies. My favourite subjects have been React, React Native and Redux. I've been working hard at trying to fully understand these subjects, and although have struggled a lot, enjoy them hugely.</p> 
 			<p><strong>Take a look at some of my projects, here and on Github</strong></p>
@@ -74,13 +77,16 @@ get_header(); ?>
 			</div><!-- row -->
 			
 		</div><!-- container -->
+		
 	</section><!-- project-features -->
+
+
 
 	<!-- SKILLS
 	================================================== -->
+<a name="skills"></a>
 	<section id="skills">
 		<div class="container">
-			<a name="skills"></a>
 			<div class="section-header">
 				<h2>//Skills and Courses</h2>
 			</div><!-- section-header -->
@@ -119,11 +125,12 @@ get_header(); ?>
 				
 			</div><!-- row -->
 		</div><!-- container -->
+		
 	</section><!-- course-features -->
 
-	<!-- VIDEO FEATURETTE
+	<!-- CODEPEN
 	================================================== -->
-	<a name="codepen"></a>
+<a name="codepen"></a>	
 	<section id="codepen">
 		<div class="container">
 			<div class="row">
@@ -133,10 +140,12 @@ get_header(); ?>
 				</div><!-- end col -->
 			</div><!-- row -->			
 		</div><!-- container -->
-	</section><!-- featurette -->
+		
+	</section><!-- codepen -->
 
 	<!-- ABOUT SECTION
 	================================================== -->
+<a name="about"></a>
 	<section id="about">
 		<div class="container">
 			<div class="row">
@@ -169,7 +178,7 @@ get_header(); ?>
 	
 	<!-- CONTACT SECTION 
 	================================================== -->
-	<a name="contact"></a>
+<a name="contact">
 	<section id="contact" data-type="background" data-speed="4">
 		<div class="container">
 		    <div class="row" id="primary">
@@ -210,7 +219,7 @@ get_header(); ?>
 			    	    
 		    </div><!-- primary -->
 		</div><!-- container -->
-	</section><!-- signup -->
-
+	</section><!-- contact -->
+</a>	
 <?php
 get_footer(); ?>
