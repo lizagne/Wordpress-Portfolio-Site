@@ -1,4 +1,4 @@
-#Converting my Static Bootstrap site into a Wordpress Theme with a Udemy Tutorial
+# Converting my Static Bootstrap site into a Wordpress Theme with a Udemy Tutorial
 
 After making my static site with Bootstrap, which is on a previous repo, the steps to take to convert it to a Wordpress Theme are:
 
