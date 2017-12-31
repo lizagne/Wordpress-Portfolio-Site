@@ -597,6 +597,7 @@ body {
 	margin-top: 50px;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 16px;
+	font-weight: 300;
 }
 
 .logged-in .navbar-fixed-top {
@@ -641,12 +642,13 @@ p {
 }
 
 a:link, a:visited {
-	color: #dd5638;
+	color: white;
+	text-decoration: none;
 }
 
 a:hover {
 	text-decoration: none;
-	color: #c9302c;
+	color: white;
 }
 
 blockquote {
@@ -696,14 +698,14 @@ button, input, .btn, a.btn {
 
 .btn-danger {
 	background-color: #ff41ff;
-	border-color: #bab43b;
-	color: black;
+	border-color: #d011cc;
+	color: white;
 }
 
-.btn-danger:hover {
-	background-color: #bab43b;
-	border-color: #fef65b;
-	color: black;
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open>.dropdown-toggle.btn-danger {
+	background-color: #d011cc;
+	border-color: #ff41ff;
+	color: white;
 }
 
 .text-danger, li.text-danger a {
@@ -719,7 +721,7 @@ a.text-danger:hover {
 }
 
 .badge.social {
-	background: #ccc;
+	background: #999;
 	font-size: 24px;
 	height: 40px;
 	width: 40px;
@@ -733,16 +735,8 @@ a.text-danger:hover {
 	color: white;
 }
 
-.badge.social.twitter:hover {
-	background: #55acee;
-}
-
-.badge.social.facebook:hover {
-	background: #3b5998;
-}
-
-.badge.social.gplus:hover {
-	background: #db4b39;
+.badge.social.twitter:hover, .badge.social.github:hover, .badge.social.codepen:hover, .badge.social.instagram:hover  {
+	background: #000;
 }
 
 /* === CUSTOM ICON SPRITES === */
@@ -861,9 +855,9 @@ form textarea {
 }
 
 .logo {
-	width: 75%;
+	width: 65%;
 	border-radius: 100%;
-	border: 2px solid #fff;
+	border: 3px solid #fff;
 }
 
 #hero .hero-text {
@@ -998,6 +992,19 @@ section.main-content {
 	text-align: center;
 }
 
+#projects a {
+	color: #333;
+	border-bottom: 2px solid #ff41ff;
+}
+
+#projects a:hover {
+	color: #333;
+	text-decoration: none;
+	border-bottom: none;
+	background-color: #ff41ff;
+	padding: 5px 0;
+}
+
 #codepen {
 	background: url('/wp-content/themes/underscoresTheme/assets/img/spots-bg.jpg') 50% 100% repeat fixed;
 	background-size: cover;
@@ -1008,10 +1015,6 @@ section.main-content {
 #about {
 	background: white url('/wp-content/themes/underscoresTheme/assets/img/drawingsLiz.jpg') 80% 50px no-repeat;
 }
-
-/*#about h2 {
-	margin: 0 0 20px;
-}*/
 
 #about .num {
 	display: table;
@@ -1061,6 +1064,27 @@ section.main-content {
 	padding: 20px 0;
 }
 
+#hero .text-links:link, p.lead .text-links:link {
+	border-bottom: 2px solid #ff41ff;
+}
+
+#hero .text-links:hover {
+	border-bottom: none;
+	background-color: #ff41ff;
+	padding: 5px 0;
+}
+
+/*#contact a:link, #hero p a:link {
+	border-bottom: 2px solid #ff41ff;
+}
+
+#contact a:hover, #hero p a:hover {
+	border-bottom: none;
+	background-color: #ff41ff;
+	padding: 5px 0;
+
+}
+*/
 #contact h2 strong {
 	border-bottom: solid 2px #dd5638;
 }
@@ -1111,9 +1135,6 @@ footer a:hover {
 }
 
 @media screen and (max-width : 768px) {
-	.logo {
-		width: 50%;
-	}
 	
 	#optin p {
 		margin: 0 0 10px;

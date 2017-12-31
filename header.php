@@ -15,6 +15,8 @@
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+<link rel="icon" href="<?php bloginfo('stylesheet_directory'); ?>/assets/img/favicon.ico">
+
 
 	<!-- Bootstrap core CSS -->
 	<link href="<?php bloginfo('stylesheet_directory'); ?>/assets/css/bootstrap.min.css" rel="stylesheet">
@@ -23,7 +25,8 @@
 	<link href="<?php bloginfo('stylesheet_directory'); ?>/assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 	
 	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Arvo|Bree+Serif|Josefin+Sans|Lora" rel="stylesheet">
+ 	<link href="https://fonts.googleapis.com/css?family=Arvo|Josefin+Sans:300,400" rel="stylesheet">
+
 
 <?php wp_head(); ?>
 

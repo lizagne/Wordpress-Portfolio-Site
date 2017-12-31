@@ -21,27 +21,28 @@ get_header(); ?>
 			    		
 			    		<div class="col-sm-7 hero-text">
 				    		<h1>//Junior Web Developer</h1>
-				            <p class="lead">Since making the decision to study programming I have become addicted to learning the languages that make up digital experiences. I work very hard at improving my skills, through repeated practice and online courses.</p>
+				            <p class="lead">This year I made the decision to learn to code - I left my Art and Design studio behind and took on a 3 month, intensive Bootcamp course, called <a class="text-links" href="https://developme.training/fellowship/">The Coding Fellowship at DevelopMe_ in Bristol.</a></p>
 
-				            <p><a class="btn btn-lg btn-danger" href="#projects" role="button">//See My Work &raquo;</a></p>
+				            <p>I made this website from scratch using Bootstrap for efficiency, then converted it to a Wordpress template using <a class="text-links" href="http://underscores.me/">Underscores</a> theme. This helped me feel even more confident with Wordpress development, bringing together HTML, CSS, PHP, JS and JQuery.</p>
+
+				            <p><a href="#about" class="btn btn-lg btn-danger" role="button">//Find out more &raquo;</a></p>
 			    		</div><!-- col -->
-			    		
 	    			</div><!-- row -->
 	    		</div><!-- container -->
-
 	    	</article>
 	    </section>
+	<a name="projects"></a>
 	
 	
    <!-- PROJECTS
 	================================================== -->
-	<a name="projects"></a>
 	<section id="projects">	
 		<div class="container">
 			<h2>//My Projects</h2>
-			<p class="lead">During our Coding Fellowship with DevelopMe_, we worked on various different projects with lots of different technologies. My favourite subjects have been React, React Native and Redux. I've been working hard at trying to fully understand these subjects, and although have struggled a lot, enjoy them hugely.</p> 
+			<p class="lead">Here are some of the projects and subjects I worked on, whilst studying on the Coding Fellowship at <a href="https://developme.training/">DevelopMe_</a>.</p> 
 			<p><strong>Take a look at some of my projects, here and on Github</strong></p>
-			
+			<br />
+
 			<div class="row">
 				<div class="col-sm-4">
 					<img src="/wp-content/themes/underscoresTheme/assets/img/icon-design.png" alt="Design">
@@ -140,12 +141,11 @@ get_header(); ?>
 				</div><!-- end col -->
 			</div><!-- row -->			
 		</div><!-- container -->
-		
 	</section><!-- codepen -->
-
+<a name="about"></a>
 	<!-- ABOUT SECTION
 	================================================== -->
-<a name="about"></a>
+
 	<section id="about">
 		<div class="container">
 			<div class="row">
@@ -156,9 +156,10 @@ get_header(); ?>
 							<p class="lead">Liz Verde<small> Junior Web Developer</small></p>
 						</div><!-- end col -->
 						<div class="col-lg-4">
-							<a href="https://twitter.com/zizdrawstoo" class="badge social twitter" target="_blank"><i class="fa fa-twitter"></i></a>
 							<a href="https://github.com/lizagne" class="badge social github" target="_blank"><i class="fa fa-github"></i></a>
 							<a href="https://codepen.io/lizagne" class="badge social codepen" target="_blank"><i class="fa fa-codepen"></i></a>
+							<a href="https://instagram.com/ziz_draws_too" class="badge social instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+							<a href="https://twitter.com/ziz_draws_too" class="badge social twitter" target="_blank"><i class="fa fa-twitter"></i></a>
 						</div><!-- end col -->
 					
 					</div><!-- row -->
@@ -178,14 +179,14 @@ get_header(); ?>
 	
 	<!-- CONTACT SECTION 
 	================================================== -->
-<a name="contact">
+<a name="contact"></a>
 	<section id="contact" data-type="background" data-speed="4">
 		<div class="container">
 		    <div class="row" id="primary">
 			    <div id="content" class="col-sm-12">    
 				    <section class="main-content">
 				    	<h2>//Contact</h2>
-				    	<p class="lead">07813 791 655  •  ljverde@gmail.com</p>
+				    	<p class="lead">07813 791 655  • <span><a href="mailto:ljverde@gmail.com" class="text-links">ljverde@gmail.com</a></span></p>
 				    	
 				    	<form role="form" class="clearfix">
 		    				<div class="row">
@@ -210,7 +211,7 @@ get_header(); ?>
 		    						</div>
 		    					</div><!-- end col -->
 		    				</div><!-- row -->
-							<input type="submit" class="btn btn-info btn-lg pull-right" value="//Get in touch &raquo;">
+							<input type="submit" class="btn btn-lg btn-danger" value="//Get in touch &raquo;">
 				        </form>
 				    	
 				    </section>
@@ -220,6 +221,6 @@ get_header(); ?>
 		    </div><!-- primary -->
 		</div><!-- container -->
 	</section><!-- contact -->
-</a>	
+	
 <?php
 get_footer(); ?>
