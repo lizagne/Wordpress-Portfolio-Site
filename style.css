@@ -911,6 +911,10 @@ form textarea {
 	display: block;
 }
 
+#codepen .container .codepen-text {
+	background-color: #000;
+}
+
 
 /* ==== LAYOUT ==== */
 

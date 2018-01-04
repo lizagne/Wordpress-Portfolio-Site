@@ -135,10 +135,14 @@ get_header(); ?>
 	<section id="codepen">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-8 col-sm-offset-2">
-					<h2>//See my pens on Codepen</h2>
-					<p>In November this year, I participated in Codevember, which is a challenge for developers making a creative digital sketch by day during the whole month of November. Inspired by Inktober, which I'd participated in the previous 2 years, in my life as an Artist. I decided to take on this challenge on Codepen. I kept it up every day, until we came to React, where I needed all the same time I had to try and figure out the weird and wonderful world of Apps!</p> 
+				<div class="col-sm-8 col-sm-offset-2 codepen-text">
+					<a href="https://codepen.io/lizagne" target="_blank">
+					<h2>//View my pens on Codepen</h2>
+					<p>In November this year, I participated in Codevember; a challenge for developers making a creative digital sketch each day during the month of November. Inspired by Inktober, which I'd participated in the previous 2 years, in my life as an Artist. I decided to take on this challenge on Codepen . I kept it going until my brain was fried by React and Redux!</p></a>
+
+					<p><a href="https://codepen.io/lizagne" class="badge social codepen" target="_blank"><i class="fa fa-codepen"></i></a></p>
 				</div><!-- end col -->
+
 			</div><!-- row -->			
 		</div><!-- container -->
 	</section><!-- codepen -->
