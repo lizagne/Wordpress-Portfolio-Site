@@ -38,41 +38,32 @@ get_header(); ?>
 	================================================== -->
 	<section id="projects">	
 		<div class="container">
-			<h2>//My Projects</h2>
-			<p class="lead">Here are some of the projects and subjects I worked on, whilst studying on the Coding Fellowship at <a href="https://developme.training/">DevelopMe_</a>.</p> 
+			<h2>//My Project Highlights</h2>
+			<p class="lead">Here are some of the projects I worked on whilst studying on the Coding Fellowship at <a href="https://developme.training/">DevelopMe_</a>.</p> 
 			<p><strong>Take a look at some of my projects, here and on Github</strong></p>
 			<br />
 
 			<div class="row">
 				<div class="col-sm-4">
-					<img src="/wp-content/themes/underscoresTheme/assets/img/icon-design.png" alt="Design">
-					<h3>React Native</h3>
-					<p>Week 9 of the Coding Fellowship we got to make various different mobile apps. Take a look here</p>
+					<img src="/wp-content/themes/underscoresTheme/assets/img/crypto-currency.png" alt="React-Native App">
+					<h3>React Native Projects</h3>
+					<p>Week 9 of the Coding Fellowship was React Native week, which I really enjoyed. We made Film and News apps which used online apis, I also made a cryptocurrency tracker app in my spare time.</p>
+					<h4>View code and demo gifs on github</h4>
+					<a href="https://github.com/lizagne/react-redux-cryptotracker" target="_blank"><p>Cryptocurrency Tracker App</p></a>
+					<a href="https://github.com/lizagne/film-guide-app" target="_blank"><p>Christmas Film Finder App</p></a>
+					<a href="https://github.com/lizagne/react-native-news-app" target="_blank"><p>BBC News App</p></a>
+
+
 				</div><!-- col -->
 				<div class="col-sm-4">
-					<img src="/wp-content/themes/underscoresTheme/assets/img/icon-code.png" alt="Code">
-					<h3>Quality HTML5 &amp; CSS3</h3>
-					<p>You'll learn how hand-craft a stunning website with valid, semantic and beautiful HTML5 &amp; CSS3.</p>
+					<img src="/wp-content/themes/underscoresTheme/assets/img/ftbll-tm-rndmsr.png" alt="Code">
+					<h3>React and React &amp; Redux Projects</h3>
+					<p>Here are some of the React and React and Redux projects I worked on. Both at DevelopMe_ and from Treehouse and other online Tutorials.</p>
 				</div><!-- col -->
 				<div class="col-sm-4">
-					<img src="/wp-content/themes/underscoresTheme/assets/img/icon-cms.png" alt="CMS">
-					<h3>Easy-to-use CMS</h3>
-					<p>Allow your clients to easily update their websites by converting your static websites to dynamic websites, using WordPress.</p>
-				</div><!-- col -->
-				<div class="col-sm-4">
-					<img src="/wp-content/themes/underscoresTheme/assets/img/icon-design.png" alt="Design">
-					<h3>React Native</h3>
-					<p>Week 9 of the Coding Fellowship we got to make various different mobile apps. Take a look here</p>
-				</div><!-- col -->
-				<div class="col-sm-4">
-					<img src="/wp-content/themes/underscoresTheme/assets/img/icon-code.png" alt="Code">
-					<h3>Quality HTML5 &amp; CSS3</h3>
-					<p>You'll learn how hand-craft a stunning website with valid, semantic and beautiful HTML5 &amp; CSS3.</p>
-				</div><!-- col -->
-				<div class="col-sm-4">
-					<img src="/wp-content/themes/underscoresTheme/assets/img/icon-cms.png" alt="CMS">
-					<h3>Easy-to-use CMS</h3>
-					<p>Allow your clients to easily update their websites by converting your static websites to dynamic websites, using WordPress.</p>
+					<img src="/wp-content/themes/underscoresTheme/assets/img/wip.png" alt="CMS">
+					<h3>Wordpress Custom Theme</h3>
+					<p>In week seven we started our Wordpress projects. My client, Jamaica Street Studios, need a new website that can be looked after by them - so Wordpress was the perfect platform.</p>
 				</div><!-- col -->
 				
 			</div><!-- row -->
