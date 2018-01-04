@@ -21,7 +21,7 @@ get_header(); ?>
 			    		
 			    		<div class="col-sm-7 hero-text">
 				    		<h1>//Junior Web Developer</h1>
-				            <p class="lead">This year I made the decision to learn to code - I left my Art and Design studio behind and took on a 3 month, intensive Bootcamp course, called <a class="text-links" href="https://developme.training/fellowship/">The Coding Fellowship at DevelopMe_ in Bristol.</a></p>
+				            <p class="lead">This year, I made the decision to learn to code – I left my Art and Design studio behind and took on a 3-month, intensive, Bootcamp course; <a class="text-links" href="https://developme.training/fellowship/">The Coding Fellowship at DevelopMe_ in Bristol.</a></p>
 
 				            <p>I made this website from scratch using Bootstrap for efficiency, then converted it to a Wordpress template using <a class="text-links" href="http://underscores.me/">Underscores</a> theme. This helped me feel even more confident with Wordpress development, bringing together HTML, CSS, PHP, JS and JQuery.</p>
 
@@ -39,12 +39,12 @@ get_header(); ?>
 	<section id="projects">	
 		<div class="container">
 			<h2>//My Project Highlights</h2>
-			<p class="lead">Here are some of the projects I worked on whilst studying at <a href="https://developme.training/">DevelopMe_</a>.</p> 
+			<p class="lead">Here are some of the projects I worked on whilst studying at <a href="https://developme.training/" target="_blank">DevelopMe_</a>.</p> 
 
 			<div class="row">
 				<div class="col-sm-4">
-					<img src="/wp-content/themes/underscoresTheme/assets/img/crypto-currency.png" alt="React-Native App">
-					<h3>React Native Projects</h3>
+					<img src="/wp-content/themes/underscoresTheme/assets/img/crypto-currency.png" alt="React-Native Cryptocurrency Tracker App">
+					<h3>//React Native Projects</h3>
 					<p>Week 9 of the Coding Fellowship was React Native week, which I really enjoyed. We made Film and News apps which used online apis, I also made a cryptocurrency tracker app in my spare time.</p>
 					<h4>View code and demo gifs on github</h4>
 					<a href="https://github.com/lizagne/react-redux-cryptotracker" target="_blank"><p>Cryptocurrency Tracker App</p></a>
@@ -54,13 +54,13 @@ get_header(); ?>
 
 				</div><!-- col -->
 				<div class="col-sm-4">
-					<img src="/wp-content/themes/underscoresTheme/assets/img/ftbll-tm-rndmsr.png" alt="Code">
-					<h3>React &amp; Redux Projects</h3>
+					<img src="/wp-content/themes/underscoresTheme/assets/img/ftbll-tm-rndmsr.png" alt="React and Redux App">
+					<h3>//React &amp; Redux Projects</h3>
 					<p>Here are some of the React and React and Redux projects I worked on. Both at DevelopMe_ and from Treehouse and other online Tutorials.</p>
 				</div><!-- col -->
 				<div class="col-sm-4">
-					<img src="/wp-content/themes/underscoresTheme/assets/img/wip.png" alt="CMS">
-					<h3>Wordpress Custom Theme</h3>
+					<img src="/wp-content/themes/underscoresTheme/assets/img/wip.png" alt="Wordpress CMS site for Jamaica Street Artists">
+					<h3>//Wordpress Custom Theme</h3>
 					<p>In week seven we started our Wordpress projects. My client, Jamaica Street Studios, need a new website that can be looked after by them - so Wordpress was the perfect platform.</p>
 				</div><!-- col -->
 				
@@ -78,40 +78,37 @@ get_header(); ?>
 	<section id="skills">
 		<div class="container">
 			<div class="section-header">
-				<h2>//Skills and Courses</h2>
+				<h2>//Skills, Programs &amp; Courses</h2>
 			</div><!-- section-header -->
 			
 			<div class="row">
 				
-				<div class="col-sm-2">
+				<div class="col-sm-4">
 					<!-- <i class="fa fa-html5" ></i> -->
-					<p>HTML 5 // CSS // SASS</p>
+					<h3>//Intermediate</h3>
+					<p>HTML 5 // CSS // SASS // Bootstrap</p>
+					<p>Wordpress // Drupal</p>
+					<p>Git // Github // Command Line // Node // Yarn/NPM </p>
+					<p>Balsamiq // Sublime Text // Postman // MailChimp </p>
+					<p>Photoshop // Illustrator // InDesign</p>
 				</div><!-- end col -->
 				
-				<div class="col-sm-2">
+				<div class="col-sm-4">
 					<!-- <i class="fa fa-css3" aria-hidden="true"></i> -->
-					<p>JavaScript // jQuery // JSX </p>
-				</div><!-- end col -->
-				
-				<div class="col-sm-2">
-					<!-- <i class="ci ci-calendar"></i> -->
+					<h3>//Learning</h3>
+					<p>JavaScript // JQuery // JSX </p>
 					<p>React // React Native // Redux</p>
-				</div><!-- end col -->
-				
-				<div class="col-sm-2">
-					<!-- <i class="ci ci-community"></i> -->
 					<p>PHP // MySQL // Laravel</p>
 				</div><!-- end col -->
 				
-				<div class="col-sm-2">
-					<!-- <i class="ci ci-instructor"></i> -->
-					<p> Wordpress // Drupal</p>
+				<div class="col-sm-4">
+					<!-- <i class="fa fa-css3" aria-hidden="true"></i> -->
+					<h3>//Courses</h3>
+					<p>As well as the Bootcamp course, I further my learning online and by going to <a href="https://www.meetup.com/" target="_blank">'Meet Up' groups in tech </a>regularly.</p>
+					<p> I have a subscription with Treehouse, have bought a few courses on Udemy, try to improve my score on Codewars and have completed lots of tutorials on Codecademy, Free Code Camp, Codeschool and YouTube.</p>
+					
 				</div><!-- end col -->
 				
-				<div class="col-sm-2">
-					<!-- <i class="ci ci-device"></i> -->
-					<p>Git // Github // Command Line // Postman // Node // Yarn </p>
-				</div><!-- end col -->
 				
 			</div><!-- row -->
 		</div><!-- container -->

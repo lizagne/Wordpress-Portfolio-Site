@@ -6,26 +6,30 @@
  *
  * @package Bootstrap to WordPress
  */
-?><!DOCTYPE html>
-<html <?php language_attributes(); ?>>
-<head>
-	
-<meta charset="<?php bloginfo( 'charset' ); ?>">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title><?php wp_title( '|', true, 'right' ); ?></title>
-<link rel="profile" href="http://gmpg.org/xfn/11">
-<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-<link rel="icon" href="<?php bloginfo('stylesheet_directory'); ?>/assets/img/favicon.ico">
+?>
 
+<!DOCTYPE html>
+<html <?php language_attributes(); ?>>
+
+<head>
+	<meta charset="<?php bloginfo( 'charset' ); ?>">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+	<link rel="icon" href="<?php bloginfo('stylesheet_directory'); ?>/assets/img/favicon.ico">
 
 	<!-- Bootstrap core CSS -->
 	<link href="<?php bloginfo('stylesheet_directory'); ?>/assets/css/bootstrap.min.css" rel="stylesheet">
-	
+
 	<!-- Font Awesome Icons -->
 	<link href="<?php bloginfo('stylesheet_directory'); ?>/assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-	
+
 	<!-- Google Fonts -->
- 	<link href="https://fonts.googleapis.com/css?family=Arvo|Josefin+Sans:300,400" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400" rel="stylesheet">
+
+	<title><?php wp_title( '|', true, 'right' ); ?></title>
 
 
 <?php wp_head(); ?>
@@ -38,9 +42,9 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="hfeed site">
-	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'underscoresTheme' ); ?></a>
-	
+	<div id="page" class="hfeed site">
+		<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'underscoresTheme' ); ?></a>
+		
 	<!-- HEADER
 	================================================== -->
 	<header class="site-header" role="banner">
@@ -72,6 +76,4 @@
 			</div>
 		
 		</div>
-	</header>
-		
 	</header>
