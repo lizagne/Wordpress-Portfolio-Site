@@ -43,25 +43,98 @@ get_header(); ?>
 
 			<div class="row">
 				<div class="col-sm-4">
-					<img src="/wp-content/themes/underscoresTheme/assets/img/crypto-currency.png" alt="React-Native Cryptocurrency Tracker App">
-					<h3>//React Native Projects</h3>
-					<p>Week 9 of the Coding Fellowship was React Native week, which I really enjoyed. We made Film and News apps which used online apis, I also made a cryptocurrency tracker app in my spare time.</p>
-					<h4>View code and demo gifs on github</h4>
-					<a href="https://github.com/lizagne/react-redux-cryptotracker" target="_blank"><p>Cryptocurrency Tracker App</p></a>
-					<a href="https://github.com/lizagne/film-guide-app" target="_blank"><p>Christmas Film Finder App</p></a>
-					<a href="https://github.com/lizagne/react-native-news-app" target="_blank"><p>BBC News App</p></a>
-
-
+					<div class="container1">
+  						<a href="https://github.com/lizagne/film-guide-app" target="_blank">
+  							<img src="/wp-content/themes/underscoresTheme/assets/img/film-react-native-app.jpg" alt="React Native App" class="image">
+						<div class="overlay">
+							<div class="img-text">Go to Github</div>
+						</div>
+						</a>
+					</div>
+					<h3>//React Native<br /><small>Christmas Films &amp; BBC news</small></h3>
+					<p>Skills: Expo Client, Xcode Simulator, React Native elements, external APIs, linking internally and externally, stylesheets, Redux.</p>
+					<p><i class="fa fa-github" aria-hidden="true"></i><a href="https://github.com/lizagne/film-guide-app" target="_blank"> Christmas Film Finder App on GitHub</a></p>
+					<p><i class="fa fa-github" aria-hidden="true"></i><a href="https://github.com/lizagne/react-native-news-app" target="_blank"> BBC News App on GitHub</a></p>
 				</div><!-- col -->
+
 				<div class="col-sm-4">
-					<img src="/wp-content/themes/underscoresTheme/assets/img/ftbll-tm-rndmsr.png" alt="React and Redux App">
-					<h3>//React &amp; Redux Projects</h3>
-					<p>Here are some of the React and React and Redux projects I worked on. Both at DevelopMe_ and from Treehouse and other online Tutorials.</p>
+					<div class="container1">
+  						<a href="https://build-mprelhbife.now.sh/" target="_blank">
+  							<img src="/wp-content/themes/underscoresTheme/assets/img/ftbll-tm-rndmsr.png" alt="React and Redux project" class="image">
+						<div class="overlay">
+							<div class="img-text">View project online</div>
+						</div>
+						</a>
+					</div>
+					<h3>//React &amp; Redux <small>Ftbll Tm Rndmsr</small></h3>
+					<p>Skills: JS, React and Redux, lodash, refactoring, HTML, SASS, gulp, CSS animations, form validation.</p>
+					<p><i class="fa fa-external-link" aria-hidden="true"></i><a href="https://build-mprelhbife.now.sh/" target="_blank">Ftbll Tm Rndmzr online</a></p>
+					<p><i class="fa fa-github" aria-hidden="true"></i><a href="https://github.com/lizagne/football-team-picker-project" target="_blank">View on Github</a></p>
 				</div><!-- col -->
+
 				<div class="col-sm-4">
-					<img src="/wp-content/themes/underscoresTheme/assets/img/wip.png" alt="Wordpress CMS site for Jamaica Street Artists">
-					<h3>//Wordpress Custom Theme</h3>
-					<p>In week seven we started our Wordpress projects. My client, Jamaica Street Studios, need a new website that can be looked after by them - so Wordpress was the perfect platform.</p>
+					<div class="container1">
+  						<a href="#" target="_blank">
+  							<img src="/wp-content/themes/underscoresTheme/assets/img/jsa-wip.jpg" alt="JSA Wordpress Project" class="image">
+						<div class="overlay">
+							<div class="img-text">View JSA (WIP) online</div>
+						</div>
+						</a>
+					</div>
+					<h3>//Wordpress<small> JSA &amp; Coole Surgery</small></h3>
+					<p>JSA skills: Client interaction, Photoshop, Wireframing, PHP, FTP, Filezilla, MasonryJS, HTML, SASS, gulp, JQUERY, JS, responsive design.</p>
+					<p>Coole skills: Client management, security and SEO management, Wordpress training, CPanel, PHPMyAdmin.</p>
+					<p><i class="fa fa-external-link" aria-hidden="true"></i><a href="#" target="_blank">JSA (WIP) online</a></p>
+					<p><i class="fa fa-external-link" aria-hidden="true"></i><a href="http://coolesurgery.ie/" target="_blank">Coole Surgery online</a></p>
+				</div><!-- col -->
+
+			</div>
+
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="container1">
+  						<a href="https://github.com/lizagne/react-redux-cryptotracker" target="_blank">
+  							<img src="/wp-content/themes/underscoresTheme/assets/img/crypto-currency.png" alt="Cryptocurrency Tracker App" class="image">
+						<div class="overlay">
+							<div class="img-text">View on GitHub</div>
+						</div>
+						</a>
+					</div>
+					<h3>//React Native<br /><small>Cryptocurrency Tracker App</small></h3>
+					<p>Skills: External API's, Redux and React, React Native Stylesheets, Expo Client, JS logic.</p>
+					<p><i class="fa fa-github" aria-hidden="true"></i><a href="https://github.com/lizagne/react-redux-cryptotracker" target="_blank"> Cryptocurrency Tracker App on GitHub</a></p>
+				</div><!-- col -->
+
+				<div class="col-sm-4">
+					<div class="container1">
+  						<a href="https://github.com/lizagne/video-player" target="_blank">
+  							<img src="/wp-content/themes/underscoresTheme/assets/img/yourTube.png" alt="YourTube App" class="image">
+						<div class="overlay">
+							<div class="img-text">View YourTube on GitHub</div>
+						</div>
+						</a>
+					</div>
+					<h3>//React<small> YourTube</small><br />
+						and Redux<small> Reduxtagram</small></h3>
+					<p>React Skills: External API's, Lodash (debounce), Bootstrap.</p>
+					<p>Redux Skills: JSON files, Routes.</p>
+					<p><i class="fa fa-github" aria-hidden="true"></i><a href="https://github.com/lizagne/video-player" target="_blank">YourTube on GitHub</a>
+					<p><i class="fa fa-github" aria-hidden="true"></i><a href="https://github.com/lizagne/reduxtagram" target="_blank">Reduxtagram on GitHub</a>
+				</div><!-- col -->
+
+				<div class="col-sm-4">
+					<div class="container1">
+  						<a href="https://github.com/lizagne/RSVP-app" target="_blank">
+  							<img src="/wp-content/themes/underscoresTheme/assets/img/rsvp-app.png" alt="RSVP App" class="image">
+						<div class="overlay">
+							<div class="img-text">View online</div>
+						</div>
+						</a>
+					</div>
+					<h3>//React &amp; Redux <small>RSVP App</small></h3>
+					<p>Skills practiced: PropTypes</p>
+					<p><i class="fa fa-external-link" aria-hidden="true"></i><a href="https://build-yfgwqquydy.now.sh/" target="_blank">RSVP online</a></p>
+					<p><i class="fa fa-github" aria-hidden="true"></i><a href="https://github.com/lizagne/RSVP-app" target="_blank">RSVP on GitHub</a></p>
 				</div><!-- col -->
 				
 			</div><!-- row -->
@@ -89,8 +162,9 @@ get_header(); ?>
 					<p>HTML 5 // CSS // SASS // Bootstrap</p>
 					<p>Wordpress // Drupal</p>
 					<p>Git // Github // Command Line // Node // Yarn/NPM </p>
-					<p>Balsamiq // Sublime Text // Postman // MailChimp </p>
+					<p>Balsamiq // Sublime Text // Postman // MailChimp // Filezilla </p>
 					<p>Photoshop // Illustrator // InDesign</p>
+
 				</div><!-- end col -->
 				
 				<div class="col-sm-4">
@@ -99,6 +173,7 @@ get_header(); ?>
 					<p>JavaScript // JQuery // JSX </p>
 					<p>React // React Native // Redux</p>
 					<p>PHP // MySQL // Laravel</p>
+					<p>Google, React and Redux Dev Tools</p>
 				</div><!-- end col -->
 				
 				<div class="col-sm-4">
@@ -124,7 +199,7 @@ get_header(); ?>
 				<div class="col-sm-8 col-sm-offset-2 codepen-text">
 					<a href="https://codepen.io/lizagne" target="_blank">
 					<h2>//View my pens on Codepen</h2>
-					<p>In November this year, I participated in Codevember; a challenge for developers making a creative digital sketch each day during the month of November. Inspired by Inktober, which I'd participated in the previous 2 years, as an Artist. I decided to take on this challenge on Codepen. It was a great opportunity to learn new things like CSS Animations and HTML canvas, as well as practice my JavaScript skills. I kept it going until my brain was fried by React and Redux!</p></a>
+					<p>In November, I participated in Codevember; a challenge for developers making a creative digital sketch each day during the month of November. Inspired by Inktober, which I'd participated in the previous 2 years, as an Artist. I decided to take on this challenge on Codepen. It was a great opportunity to learn new things like CSS Animations and HTML canvas, as well as practice my JavaScript skills. I kept it going until my brain was fried by React and Redux!</p></a>
 
 					<p><a href="https://codepen.io/lizagne" class="badge social codepen" target="_blank"><i class="fa fa-codepen"></i></a></p>
 				</div><!-- end col -->
