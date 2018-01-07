@@ -46,9 +46,9 @@ get_header(); ?>
 					<div class="container1">
   						<a href="https://github.com/lizagne/film-guide-app" target="_blank">
   							<img src="/wp-content/themes/underscoresTheme/assets/img/film-react-native-app.jpg" alt="React Native App" class="image">
-						<div class="overlay">
-							<div class="img-text">Go to Github</div>
-						</div>
+							<div class="overlay">
+								<div class="img-text">View code and demo gif on GitHub</div>
+							</div>
 						</a>
 					</div>
 					<h3>//React Native<br /><small>Christmas Films &amp; BBC news</small></h3>
@@ -61,9 +61,9 @@ get_header(); ?>
 					<div class="container1">
   						<a href="https://build-mprelhbife.now.sh/" target="_blank">
   							<img src="/wp-content/themes/underscoresTheme/assets/img/ftbll-tm-rndmsr.png" alt="React and Redux project" class="image">
-						<div class="overlay">
-							<div class="img-text">View project online</div>
-						</div>
+							<div class="overlay">
+								<div class="img-text">View project online</div>
+							</div>
 						</a>
 					</div>
 					<h3>//React &amp; Redux <small>Ftbll Tm Rndmsr</small></h3>
@@ -76,9 +76,9 @@ get_header(); ?>
 					<div class="container1">
   						<a href="#" target="_blank">
   							<img src="/wp-content/themes/underscoresTheme/assets/img/jsa-wip.jpg" alt="JSA Wordpress Project" class="image">
-						<div class="overlay">
-							<div class="img-text">View JSA (WIP) online</div>
-						</div>
+							<div class="overlay">
+								<div class="img-text">View JSA (WIP) online</div>
+							</div>
 						</a>
 					</div>
 					<h3>//Wordpress<small> JSA &amp; Coole Surgery</small></h3>
@@ -95,9 +95,9 @@ get_header(); ?>
 					<div class="container1">
   						<a href="https://github.com/lizagne/react-redux-cryptotracker" target="_blank">
   							<img src="/wp-content/themes/underscoresTheme/assets/img/crypto-currency.png" alt="Cryptocurrency Tracker App" class="image">
-						<div class="overlay">
-							<div class="img-text">View on GitHub</div>
-						</div>
+							<div class="overlay">
+								<div class="img-text">View code and demo gif on GitHub</div>
+							</div>
 						</a>
 					</div>
 					<h3>//React Native<br /><small>Cryptocurrency Tracker App</small></h3>
@@ -109,14 +109,14 @@ get_header(); ?>
 					<div class="container1">
   						<a href="https://github.com/lizagne/video-player" target="_blank">
   							<img src="/wp-content/themes/underscoresTheme/assets/img/yourTube.png" alt="YourTube App" class="image">
-						<div class="overlay">
-							<div class="img-text">View YourTube on GitHub</div>
-						</div>
+							<div class="overlay">
+								<div class="img-text">View code and demo gif on GitHub</div>
+							</div>
 						</a>
 					</div>
 					<h3>//React<small> YourTube</small><br />
 						and Redux<small> Reduxtagram</small></h3>
-					<p>React Skills: External API's, Lodash (debounce), Bootstrap.</p>
+					<p>React Skills: External API's, React, Lodash (debounce), Bootstrap.</p>
 					<p>Redux Skills: JSON files, Routes.</p>
 					<p><i class="fa fa-github" aria-hidden="true"></i><a href="https://github.com/lizagne/video-player" target="_blank">YourTube on GitHub</a>
 					<p><i class="fa fa-github" aria-hidden="true"></i><a href="https://github.com/lizagne/reduxtagram" target="_blank">Reduxtagram on GitHub</a>
@@ -124,10 +124,10 @@ get_header(); ?>
 
 				<div class="col-sm-4">
 					<div class="container1">
-  						<a href="https://github.com/lizagne/RSVP-app" target="_blank">
+  						<a href="https://build-yfgwqquydy.now.sh/" target="_blank">
   							<img src="/wp-content/themes/underscoresTheme/assets/img/rsvp-app.png" alt="RSVP App" class="image">
 						<div class="overlay">
-							<div class="img-text">View online</div>
+							<div class="img-text">View project online</div>
 						</div>
 						</a>
 					</div>
